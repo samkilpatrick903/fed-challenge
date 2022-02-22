@@ -68,6 +68,7 @@ h5 {
 
 .page-header h1 {
   font-size: 36px;
+  font-weight: lighter;
   line-height: 47px;
   margin-top: 1em;
   margin-bottom: 0;
@@ -175,7 +176,7 @@ h5 {
 
 .CTA-content .CTA-text-left {
   font-size: 26px;
-  color: #647178;
+  color: #7c7c7c;
   margin: 0 11%;
   font-weight: lighter;
   line-height: auto;
@@ -184,9 +185,10 @@ h5 {
 
 .CTA-content .CTA-text-right {
   font-size: 26px;
-  color: #647178;
+  color: #7c7c7c;
   margin: 0 8%;
   font-weight: lighter;
+  line-height: auto;
   text-align: center;
 }
 
@@ -220,9 +222,9 @@ h5 {
   height: 60px;
   background-color: #212629;
   font-family: "Lato", Arial, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 13px;
-  color: #647178;
+  color: #646464;
 }
 
 .footer .container {
@@ -252,11 +254,54 @@ h5 {
 
 /* Small Monitor */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  .hero-graphic {
+    max-width: 50%;
+  }
+
+  .card-row {
+    justify-content: space-around;
+  }
+
+  .CTA-bottom-image {
+    width: 100%;
+    height: auto;
+  }
+
 }
+
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
+  .hero {
+    height: 600px;
+  }
+
+  .hero-graphic {
+    max-width: 400px;
+    margin-top: 5%;
+  }
+  .page-header {
+    margin-right: 8%;
+  }
+
+.CTA-container {
+  margin-top: 60px;
 }
+
+.CTA-content .CTA-text-left {
+  margin: 0 10%;
+}
+.CTA-content .CTA-text-right {
+  margin: 0 10%;
+}
+.CTA-image {
+  width: 100%;
+  height: auto;
+}
+
+}
+
+
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
