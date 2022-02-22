@@ -156,6 +156,19 @@ height: 74px;
 }
 
 
+/* CTA & Image */
+
+.CTA-container{
+  margin-top: 116px;
+  position: relative;
+}
+
+.CTA-content{
+  padding-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
@@ -164,7 +177,33 @@ height: 74px;
 
 
 .footer {
+  height: 60px;
+  background-color: #212629;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  color: white;
+}
 
+.footer .container {
+  height: 100%;
+  position: relative;
+}
+
+.footer .footer-q-logo {
+  width: 70px;
+  vertical-align: middle;
+  margin-right: 18px;
+  position: absolute;
+  top: 17px;
+}
+
+.footer .container span {
+  display: inline-block;
+  vertical-align:middle;
+  position: absolute;
+  left: 90px;
+  top: 20px;
 }
 
 
