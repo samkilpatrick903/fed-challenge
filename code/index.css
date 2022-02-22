@@ -2,7 +2,8 @@
             Global
 *******************************/
 
-html, body {
+html,
+body {
   font-family: "Lato", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
@@ -12,11 +13,14 @@ body {
   height: auto;
 }
 
-h1 {font-family: "Merriweather", Times New Roman, serif;
+h1 {
+  font-family: "Merriweather", Times New Roman, serif;
   font-weight: 400;
 }
 
-h2, h3, h4{
+h2,
+h3,
+h4 {
   font-family: "Lato", Times New Roman, serif;
   font-weight: normal;
 }
@@ -25,28 +29,25 @@ h5 {
   font-family: "Merriweather", Times New Roman, serif;
 }
 
-
 .button {
-  background: linear-gradient(to bottom, #4DAF7C, #489a6f);
+  background: linear-gradient(to bottom, #4daf7c, #489a6f);
   font-size: 15px;
   border: 0;
   width: 156px;
   height: 50px;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  text-shadow: 1px 1px 2px rgba(0,0,0, 0.25);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
-
-
 
 /*******************************
               Page
 *******************************/
 
 .hero {
-  background-color: #DFF1E8;
+  background-color: #dff1e8;
   align-self: center;
   height: 560px;
 }
@@ -55,7 +56,7 @@ h5 {
   padding-top: 47px;
 }
 
-.top-section{
+.top-section {
   display: flex;
   justify-content: space-between;
   padding-top: 1em;
@@ -80,19 +81,17 @@ h5 {
   margin-bottom: 1.7em;
 }
 
-.hero-graphic{
+.hero-graphic {
   max-width: 100%;
   height: auto;
   align-self: center;
   margin-top: 1.4em;
 }
 
-
-
 /* Middle Section - Cards */
 
 .page {
-  padding-top:100px;
+  padding-top: 100px;
 }
 
 .card-row {
@@ -108,13 +107,19 @@ h5 {
 .card {
   width: 340px;
   height: 386px;
-  box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1),
+    0px 5px 15px rgba(0, 0, 0, 0.07);
   border-radius: 1.5%;
   cursor: pointer;
 }
 
 .card-top {
-  background: linear-gradient(213.14deg, #2C2C2C 6.85%, #141414 93.15%, #2C2E30);
+  background: linear-gradient(
+    213.14deg,
+    #2c2c2c 6.85%,
+    #141414 93.15%,
+    #2c2e30
+  );
   width: 100%;
   height: 222px;
   display: flex;
@@ -132,7 +137,7 @@ h5 {
 .card-bottom {
   padding: 2em 1.9em;
   max-height: 130px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .card h2 {
@@ -143,10 +148,10 @@ h5 {
 }
 
 .card h3 {
-color: #3D4043;
-font-size: 18px;
-line-height: 24.45px;
-height: 74px;
+  color: #3d4043;
+  font-size: 18px;
+  line-height: 24.45px;
+  height: 74px;
 }
 
 .card:hover {
@@ -155,34 +160,70 @@ height: 74px;
   box-shadow: 0px 15px 40px rgba(28, 28, 28, 0.2);
 }
 
-
 /* CTA & Image */
 
-.CTA-container{
+.CTA-container {
   margin-top: 116px;
   position: relative;
 }
 
-.CTA-content{
+.CTA-content {
   padding-top: 0.5em;
   display: flex;
   justify-content: space-between;
 }
 
+.CTA-content .CTA-text-left {
+  font-size: 26px;
+  color: #647178;
+  margin: 0 11%;
+  font-weight: lighter;
+  line-height: auto;
+  text-align: center;
+}
+
+.CTA-content .CTA-text-right {
+  font-size: 26px;
+  color: #647178;
+  margin: 0 8%;
+  font-weight: lighter;
+  line-height: auto;
+  text-align: center;
+}
+
+.CTA-bottom-image {
+  width: 1122px;
+  height: 141px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CTA-container .divider {
+  width: 2px;
+  height: 148px;
+  background-color: black;
+  opacity: 0.09;
+  position: absolute;
+  left: 50%;
+  top: -0.5em;
+}
+
+.CTA-content h2 .bold {
+  color: #4DAF7C;
+  font-weight: bold;
+}
 
 
-
-
-
-
+/* Footer */
 
 .footer {
   height: 60px;
   background-color: #212629;
   font-family: "Lato", Arial, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 13px;
-  color: white;
+  color: #647178;
 }
 
 .footer .container {
@@ -193,19 +234,18 @@ height: 74px;
 .footer .footer-q-logo {
   width: 70px;
   vertical-align: middle;
-  margin-right: 18px;
+  margin-right: 10px;
   position: absolute;
-  top: 17px;
+  top: 20px;
 }
 
 .footer .container span {
   display: inline-block;
-  vertical-align:middle;
+  vertical-align: middle;
   position: absolute;
-  left: 90px;
-  top: 20px;
+  left: 88px;
+  top: 22px;
 }
-
 
 /*******************************
          Responsive
@@ -213,14 +253,10 @@ height: 74px;
 
 /* Small Monitor */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
-
-
 }
-
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
 }
 
 /* Mobile */
