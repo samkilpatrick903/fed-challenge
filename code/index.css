@@ -294,7 +294,7 @@ h5 {
 .CTA-content .CTA-text-right {
   margin: 0 10%;
 }
-.CTA-image {
+.CTA-bottom-image {
   width: 100%;
   height: auto;
 }
@@ -305,4 +305,62 @@ h5 {
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  .hero {
+    height: 525px;
+  }
+  .hero .container {
+    text-align: center;
+  }
+
+  .top-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-graphic {
+    display: none;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .page {
+    padding-top: 70px;
+  }
+  .card-row {
+    justify-content: center;
+  }
+
+  .card {
+    width: 95%;
+    height: 386px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .top-row-card {
+    margin-bottom: 30px;
+  }
+
+  .CTA-container {
+    margin-top: 40px;
+  }
+
+  .CTA-content .CTA-text-left {
+    font-size: 19px;
+  }
+  .CTA-content .CTA-text-right {
+    font-size: 19px;
+  }
+
+  .footer .container span {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 170px;
+    top: 22px;
+  }
+
 }
