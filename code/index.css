@@ -272,6 +272,7 @@ h5 {
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
+
   .hero {
     height: 600px;
   }
@@ -284,20 +285,20 @@ h5 {
     margin-right: 8%;
   }
 
-.CTA-container {
-  margin-top: 60px;
-}
+  .CTA-container {
+    margin-top: 60px;
+  }
 
-.CTA-content .CTA-text-left {
-  margin: 0 10%;
-}
-.CTA-content .CTA-text-right {
-  margin: 0 10%;
-}
-.CTA-bottom-image {
-  width: 100%;
-  height: auto;
-}
+  .CTA-content .CTA-text-left {
+    margin: 0 10%;
+  }
+  .CTA-content .CTA-text-right {
+    margin: 0 10%;
+  }
+  .CTA-bottom-image {
+    width: 100%;
+    height: auto;
+  }
 
 }
 
