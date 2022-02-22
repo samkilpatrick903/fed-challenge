@@ -150,7 +150,7 @@ h5 {
 .card h3 {
   color: #3d4043;
   font-size: 18px;
-  line-height: 24.45px;
+  line-height: 25px;
   height: 74px;
 }
 
@@ -187,7 +187,6 @@ h5 {
   color: #647178;
   margin: 0 8%;
   font-weight: lighter;
-  line-height: auto;
   text-align: center;
 }
 
